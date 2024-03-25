@@ -9,8 +9,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  // Hardcoded response for '1' and '0'
-  const responseData = "1"; // Change this value as needed
+  const responseData = "1";
   res.send(responseData);
 });
 
