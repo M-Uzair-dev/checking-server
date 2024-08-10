@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  const responseData = "1";
+  const responseData = "0";
   res.send(responseData);
 });
 
